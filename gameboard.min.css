@@ -1,0 +1,7 @@
+.bigcell{background-image:url('images/fon.png');background-color:#a87c58;text-align:center;}
+.ground{background-image:url('images/fon2.png');width:61px;height:27px;background-color:#a87c58;color:#a87c58;text-align:center;padding:0px;margin:0px;font-family:Verdana, Arial;}
+.bricks{width:59px;height:26px;font-family:Verdana, Arial;font-size:18px;font-weight:bold;border-left:1px solid #0a0a0a;border-right:1px solid #0a0a0a;border-bottom:1px solid #0a0a0a;text-align:center;vertical-align:middle;padding:0px;margin:0;margin-left:0px;cursor:pointer;}
+.dl2{float:left;padding:0px;margin:0px;}
+#board{width:1000px;height:750px;padding:0px;margin:0px;}
+#start{width:770px;padding:0px;margin:0px;}
+#stub{width:30px;}
