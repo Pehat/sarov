@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru" xml:lang="ru">
+<head>
+    <title>Sarov towers for pole dance lovers!</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="renatjstowers.min.js"></script>
+    <link type="text/css" rel="stylesheet" media="all" href="gameboard.min.css"/>
+</head>
+
+<body onLoad="loadBoard(0,318639,8,0);">
+    <div id="gameheader" style="width:750px;padding-left:10px;padding-right:10px;padding-bottom:30px;padding-top:10px;">
+        <table border=0 cellpadding=0 cellspacing=0 width=100%  align=left>
+            <tr valign=middle>
+                <td valign=middle>
+                    <form name="myform" action="http://bashni.org/play" method="post">
+                        Африканская   Башня&nbsp;&nbsp;&nbsp;
+                        <input type=hidden name=game value="6" />
+                        <input type=text class="form-text" name=puzzle value="318639" style="border: #000000 1px solid; width: 60px" />
+                        
+                    </form>
+                </td>
+                <td valign=top>Попыток:&nbsp;21.&nbsp;&nbsp;Построена:&nbsp;7.&nbsp;&nbsp;Лучший:&nbsp;lee_step [Саров] - 40.</td>
+                <td valign=top align=right width=40 id=undoStatus bgcolor=#ffffff onclick="undo();"></td>
+                <td valign=top align=right width=40 id=forecastStatus bgcolor=#ffffff >Загружаюсь..</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <canvas id="board"></canvas>
+    </div>
+</body>
+
+</html>
